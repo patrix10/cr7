@@ -1,0 +1,323 @@
+h3,h4{
+ color: blue ;   
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.special{
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+li em{
+color: brown;
+}
+#ok{
+    color: blueviolet;
+    font-family: cursive;
+}
+a[href="https://www.cristianoronaldo.com/#cr7"]{
+    color: darkgreen;
+    font-style: normal;
+}
+a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+h3+p::first-line{
+color: rgb(47,69,24)
+}
+.background{
+    background-image: url("Legends-Profile_Cristiano-Ronaldo1523460877263.jpg");
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-attachment: scroll;
+    height: 700px;
+    width: 700px;
+}
+h2{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+h2{
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    text-indent: 10px;
+    word-spacing: 2;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+h4{
+    font: normal bold .8em/1.2 arial,sans-serif;
+}
+.background{
+    padding: 18px;
+    border: 10px solid black;
+    margin: 20px;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+th{
+    background-color: coral;
+}
+td{
+    background-color: cornflowerblue;
+}
+ol#hehe li{
+    background-color: darkred;  
+    background-color: gainsboro;
+    list-style-position: inside;
+}
+.important{
+    color: darkturquoise !important;
+}
+.attack{
+    overflow: scroll;
+}
+img{
+    object-fit: cover;
+}
+form{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+input[type="password"], 
+input[type="date"], 
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 8px;
+} 
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"] {
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+}
+input[type="submit"]:hover
+{
+    background-color: hsl(154, 31%, 90%);
+}
+.clip-circle{
+    clip-path: circle(50% at 50% 50%);
+}
+.content-box{
+    box-sizing: content-box;
+    width: 160px;
+    height: 80px;
+    padding: 20px;
+    border: 8px solid red;
+    background: yellow;
+}
+.border-box{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 160px;
+    height: 80px;
+    padding: 20px;
+    border: 8px solid red;
+    background: yellow;
+}
+@media (orientation:landscape){
+    body {
+        color: black;
+    }
+}
+#box{
+    float: left;
+    clear: none;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 1em;
+}
+.sewy{
+    background-color: lightskyblue;
+    padding: 15px;
+    color: white;
+}
+.box-set,.box{
+    border-radius: 6px;
+}
+.box-set{
+    background: whitesmoke;
+}
+.box{
+    background: #2db34a;
+    position: sticky;
+    top: 10px;
+    bottom: 10px;
+    left: 20px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin: 20px;
+}
+.flex-container{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    padding: 0 20px 30px 0;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    flex-flow: row wrap;
+}
+.flex-item{
+    width: 75px;
+    height: 75px;
+    background-color: lightskyblue;
+    border: 2px solid darkblue;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    line-height: 1.4;
+}
+#flex-item-1{
+    background-color: lightpink;
+    flex-basis: 100px;
+}
+#flex-item-2{
+    background-color: lightskyblue;
+    flex-grow: 2;
+}
+#flex-item-3{
+    background-color: lightgreen;
+    flex-shrink: 3;
+}
+#flex-item-4{
+    background-color: darkkhaki;
+    align-self: stretch;
+}
+#flex-item-5{
+    background-color: lightcoral;
+    flex: 3 2 250px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    column-gap: 50px;
+    row-gap: 40px;
+}
+.items{
+    background-color: lightcoral;
+    border: 3px green solid;
+    border-radius: 3px;
+    grid-auto-rows: 100px;
+    grid-auto-columns: minmax(100px,auto);
+}
+#item-1{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.gola{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s,height 4s,border-radius 4s,background 4s;
+}
+.gola:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: green;
+}
+c{
+    animation:bouncing 0.5s ease 0s infinite alternate both;
+    background: darkblue;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 1em 2em 1.1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 100px;
+}
+@keyframes bouncing {
+    0% {
+        bottom:0;
+        box-shadow: 0 0 5px rgba(0,0,0.5);
+    }
+    100%{
+        bottom: 50px;
+        box-shadow: 0 50px 50px rgba(0,0,0.1);
+    }
+}
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.navbar li a:hover{
+    color: red;
+}
